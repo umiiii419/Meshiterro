@@ -23,7 +23,7 @@ class PostImageController < ApplicationController
 
   private
   def post_image_params
-    params_require(:post_image).permit(:shop_name, :image, :caption)
+    params.require(:post_image).permit(:shop_name, :image, :caption)
   end
 
 end
