@@ -20,6 +20,7 @@ class PostImagesController < ApplicationController
   end
 
   def destroy
+    
   end
 
   private
