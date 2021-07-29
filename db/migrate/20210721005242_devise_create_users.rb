@@ -46,3 +46,5 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
   end
 end
 
+
+
